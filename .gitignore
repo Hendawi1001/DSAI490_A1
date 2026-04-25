@@ -1,0 +1,29 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Data and Models
+# We ignore these directories to avoid pushing large binaries and datasets to GitHub
+data/raw/
+data/processed/
+models/
+reports/figures/
+
+# Ignore everything inside data, models, reports but keep the .gitkeep to maintain folder structure
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!models/.gitkeep
+!reports/figures/.gitkeep
+
+# Jupyter Notebook
+.ipynb_checkpoints
